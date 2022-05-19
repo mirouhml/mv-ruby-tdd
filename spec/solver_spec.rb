@@ -10,8 +10,8 @@ describe Solver do
       expect(Solver.new.factorial 4).to eq 24
     end
 
-    it 'the method factorial should return a message \'Please enter a positive number.\' when n is negative.' do
-      expect(Solver.new.factorial -3).to raise_error('Please enter a positive number.')
+    it 'the method factorial should raise an error \'Please enter a positive number.\' when n is negative.' do
+      expect { Solver.new.factorial -3 }.to raise_error('Please enter a positive number.')
     end
   end
 end
