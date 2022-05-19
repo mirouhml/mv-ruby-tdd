@@ -11,7 +11,7 @@ describe Solver do
     end
 
     it 'the method factorial should return a message \'Please enter a positive number.\' when n is negative.' do
-      expect(Solver.new.factorial -3).to eq 'Please enter a positive number.'
+      expect(Solver.new.factorial -3).to raise_error('Please enter a positive number.')
     end
   end
 end
