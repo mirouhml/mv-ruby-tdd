@@ -13,5 +13,9 @@ describe Solver do
     it 'the method factorial should raise an error \'Please enter a positive number.\' when n is negative.' do
       expect { Solver.new.factorial -3 }.to raise_error('Please enter a positive number.')
     end
+
+    it 'the method reverse should return \'olleh\' when the word is \'hello\'' do
+      expect(Solver.new.reverse 'hello').to eq 'olleh'
+    end
   end
 end
