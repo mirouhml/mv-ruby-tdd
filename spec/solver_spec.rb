@@ -5,21 +5,21 @@ describe Solver do
     solver = Solver.new
 
     it 'the method factorial should return 1 when n=0' do
-      expect(solver.factorial 0).to eq 1
+      expect(solver.factorial(0)).to eq 1
     end
 
     it 'the method factorial should return 24 when n=4' do
-      expect(solver.factorial 4).to eq 24
+      expect(solver.factorial(4)).to eq 24
     end
 
     it 'the method factorial should raise an error \'Please enter a positive number.\' when n is negative.' do
-      expect { solver.factorial -3 }.to raise_error('Please enter a positive number.')
+      expect { solver.factorial(-3) }.to raise_error('Please enter a positive number.')
     end
 
     it 'the method reverse should return \'olleh\' when the word is \'hello\'' do
-      expect(solver.reverse 'hello').to eq 'olleh'
+      expect(solver.reverse('hello')).to eq 'olleh'
     end
-  
+
     it 'the method fizzbuzz should return "fizz" for number 3' do
       result = solver.fizzbuzz(3)
       expect(result).to eq 'fizz'

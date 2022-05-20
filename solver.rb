@@ -1,8 +1,9 @@
 class Solver
-  def factorial(n)
-    raise 'Please enter a positive number.' if n < 0
-    return 1 if n == 0
-    n * factorial(n-1)
+  def factorial(number)
+    raise 'Please enter a positive number.' if number.negative?
+    return 1 if number.zero?
+
+    number * factorial(number - 1)
   end
 
   def reverse(word)
@@ -14,6 +15,7 @@ class Solver
     result += 'fizz' if (number % 3).zero?
     result += 'buzz' if (number % 5).zero?
     return number if result.strip.empty?
+
     result
   end
 end
