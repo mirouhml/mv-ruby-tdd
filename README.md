@@ -4,9 +4,6 @@
 
 In this project we're practicing test-driven development (TDD) using Ruby and Rspec.
 
-## Screenshots
-
-
 ## Built With
 
 - Ruby
@@ -23,12 +20,12 @@ To get a local copy up and running follow these simple example steps:
 - Change the current working directory to the location you want the cloned directory.
 - Enter the following:
 ```
-$ git clone git@github.com:mirouhml/mv-space-travellers.git.
+$ git clone git@github.com:mirouhml/mv-ruby-tdd.git.
 ```
 - Press Enter to create your local clone.
 - Navigate to the cloned repository by running:
 ```
-$ cd mv-space-travellers
+$ cd mv-ruby-tdd
 ```
 
 ### Prerequisites
