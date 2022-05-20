@@ -1,17 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project name
+# Ruby TDD Project
 
-Description
+In this project we're practicing test-driven development (TDD) using Ruby and Rspec.
 
 ## Screenshots
 
 
 ## Built With
 
-- React
-- Redux
-- CSS
+- Ruby
+- Rspec
 
 ## Live demo
 
@@ -35,8 +34,8 @@ $ cd mv-space-travellers
 ### Prerequisites
 - GitHub
 - Git
-- React
-- Redux
+- Ruby
+- Rspec
 
 
 ## Authors
@@ -47,6 +46,11 @@ $ cd mv-space-travellers
 - LinkedIn: [ammar-hamlaoui](https://www.linkedin.com/in/ammar-hamlaoui-514909189/)
 - Twitter: [@kuronomirou](https://twitter.com/kuronomirou)
 
+👤 **Salim Abdulai**
+
+- GitHub: [@RayhanTabase](https://github.com/RayhanTabase)
+- LinkedIn: [Salim-Abdulai](https://linkedin.com/in/salim-abdulai-5430065b)
+- Twitter: [@RayhanTabase](https://twitter.com/@RayhanTabase)
 
 ## Contributors
 
